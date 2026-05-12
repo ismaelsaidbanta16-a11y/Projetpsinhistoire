@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les bases du CSS</title>
+
+    <!-- CSS intégré -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .highlight {
+            color: blue;
+            font-weight: bold;
+        }
+
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: coral;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: teal;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Introduction au CSS</h1>
+    <p>Apprendre à styliser une page web</p>
+</header>
+
+<section>
+    <h2>1. Qu'est-ce que le CSS ?</h2>
+
+    <p>
+        Le <span class="highlight">CSS</span> est un langage utilisé pour définir le style et la présentation des pages web créées en HTML.
+    </p>
+    <p>
+        Il permet de contrôler les couleurs, les polices, les marges et la disposition des éléments sur une page.
+    </p>
+    <p>
+        Grâce au CSS, on peut transformer une page HTML simple en un site moderne et attractif.
+    </p>
+    <p>
+        Le CSS fonctionne en appliquant des règles aux éléments HTML à l’aide de sélecteurs comme les balises, classes ou identifiants.
+    </p>
+</section>
+
+<section>
+    <h2>2. Sélecteurs</h2>
+    <p>On peut cibler des éléments HTML :</p>
+    <ul>
+        <li>par balise (ex: h1)</li>
+        <li>par classe (ex: .highlight)</li>
+        <li>par identifiant (ex: #box)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Exemple de style</h2>
+    <div id="box">Boîte stylée</div>
+</section>
+
+<section>
+    <h2>4. Interaction</h2>
+    <p>Survole le bouton pour voir l'effet :</p>
+    <button>Bouton CSS</button>
+</section>
+
+<section>
+    <h2>Conclusion</h2>
+    <p>
+        Le CSS est essentiel pour rendre un site beau et agréable à utiliser.
+        Continue à explorer pour apprendre Flexbox, Grid et les animations !
+    </p>
+</section>
+
+</body>
+</html>
